@@ -1,0 +1,78 @@
+:root {
+  --primary: rgb(1, 1, 133);
+  --secondary: skyblue;
+  --tertiary: blue;
+}
+
+body {
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+/* global */
+.global {
+  background-color: var(--secondary);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+.global > div {
+  display: flex;
+  justify-content: space-between;
+}
+/* <!-- header --> */
+header {
+  background-color: var(--primary);
+  color: white;
+  padding: 10px 0;
+  font-size: 20px;
+}
+header > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  background-color: white;
+  color: var(--primary);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo div {
+  border: 2px dotted var(--primary);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+  list-style-type: none;
+}
+header ul li {
+  margin-left: 1rem;
+}
+header ul li:hover {
+  cursor: pointer;
+  background-color: red;
+  font-size: 24px;
+  transform: scale(1.5);
+}
+/* <!-- hero section --> */
+/* <!-- latest post section --> */
+/* <!-- recomendation --> */
+/* <!-- subscribe section --> */
+/* <!-- footer --> */
