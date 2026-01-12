@@ -107,8 +107,8 @@ header ul li:hover {
 }
 /* <!-- latest post section --> */
 .latest {
-  padding: 3rem 0;
-  background: url(./assets/d.jpg) no-repeat center;
+  padding: 1rem 0;
+  background: url(./assets/f.jpg) no-repeat center;
   background-size: cover;
   filter: grayscale(0.4);
 }
@@ -175,6 +175,21 @@ article .btn {
   width: 100%;
 }
 /* <!-- subscribe section --> */
+
+.subs {
+  background: var(--secondary);
+  padding: 32px 0;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.subs input {
+  line-height: 42px;
+  padding: 5px 10px;
+  border: 1px solid rgba(126, 128, 122, 0.42);
+  border-radius: 5px;
+}
 /* <!-- footer --> */
 footer {
   background: black;
